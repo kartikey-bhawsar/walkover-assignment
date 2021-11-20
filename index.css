@@ -152,127 +152,75 @@ footer{
 /* social media icons */
 
 .sm-handle{
-
     display: flex;
-
     padding-top: 2rem;
-
     justify-content: center;
-
 }
 
 .sm-button{
-
 margin: 0px 10px 0px;
-
     border: 1px solid #bababa;
-
     border-radius: 100%;
-
     width: 2rem;
-
     height: 2rem;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     cursor: pointer;
-
 }
 
 .sm-button:hover{
-
     background: linear-gradient(to right, #6500ff, #a400ff	);
-
 }
 
 .fab{
-
 color: #fff;
-
 font-size: 16px;
-
 }
 
-/* footer all links*/
-
 .footer-links{
-
  display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     color: white;
-
     letter-spacing: 1.5px;
-
     word-spacing: 2px;
-
 }
 
 .menu-title{
-
     margin-bottom: 10px;
-
 }
 
 .menu{
-
     margin-bottom: 20px;
-
     margin-top: 10px;
-
 }
 
 .menu-links ,.other-links{
-
     display: block;
-
     font-family: Roboto;
-
     color: #d5d5d5;
-
     cursor: pointer;
-
 }
 
 .menu-links:hover{
-
     color: #6500ff;
-
 }
 
 .other-links:hover{
-
     color: #6500ff;
-
 }
 
-/* copyright area */
-
 .copyright{
-
     font-size: 10px;
-
     color: white;
-
     letter-spacing: 1.5px;
-
     word-spacing: 2px;
-
 }
 
 .copyright a{
-
     color: #fff;
-
     font-size: 12px;
-
     cursor: pointer;
-
 }
 
 .contact{
@@ -310,8 +258,7 @@ font-size: 16px;
     color : black;
     font-size: 70px;
 }
-  
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
@@ -320,15 +267,33 @@ font-size: 16px;
     align-items: center;
   }
 
+.sign-up-form
+{
+width:450px;
+box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+background:#fff;
+padding:20px;
+margin:5% auto 0;
+text-align:center;
+border-radius: 25px; 
+opacity:0.8;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.sign-up-form h1
+{
+	color:#002080
+rgb(0, 32, 128)
+hsl(225, 100%, 25%);
+	margin-bottom:30px;
+}
+
 /* screen change */
 
 @media(max-width :700px){
-
     .footer-links{
-
     grid-template-columns: 1fr;
     }
-
 }
 
 @media only screen and (max-width: 1183px){
