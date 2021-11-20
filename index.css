@@ -48,7 +48,7 @@ nav.active a{
 }
 label.logo{
     float: left;
-	color:black;
+	color:white;
 	font-size:45px;
 	line-height:80px;
 	padding:0 100px;
@@ -60,7 +60,7 @@ label.logo{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     background-color: #594848;
     overflow: auto;
@@ -68,7 +68,7 @@ label.logo{
 }
 .gallery{
     margin: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     color:white;
     float: left;
     width: 30.8%;
@@ -77,4 +77,36 @@ label.logo{
 .gallery img{
    height: 80%;
    width: 100%;
+}
+
+.aboutus > p{
+    text-align: center;
+    color : black;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aboutus-c > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutus-c > img{
+    height: 350px;
+    width: auto;
+}
+
+.aboutus-c{
+    text-align: center;
+    width:33%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 1183px){
+    .gallery{
+        width:30.2%;
+    }
 }
