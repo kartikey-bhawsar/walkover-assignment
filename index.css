@@ -275,6 +275,51 @@ font-size: 16px;
 
 }
 
+.contact{
+    display: block;
+}  
+    .contact p{
+        text-align: center;
+        color : black;
+        font-size: 50px;
+        font-weight: 700;
+    }
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding-left:20px ;
+    padding-bottom: 30px;
+    height: 330px;
+    color:black;
+    font-size:35px;
+    text-align: center;
+  }
+  
+  .column p{
+    font-size:20px ; 
+    
+  }
+  .column h2{
+      font-size : 30px;
+  }
+  
+  .row p1{
+      
+      text-align: center;
+    color : black;
+    font-size: 70px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    color:black;
+    align-items: center;
+  }
+
 /* screen change */
 
 @media(max-width :700px){
